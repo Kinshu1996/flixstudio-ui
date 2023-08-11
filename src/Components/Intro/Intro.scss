@@ -1,0 +1,48 @@
+.intro{
+    margin: 1rem 0;
+    font-family: GT super txt trial;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    line-height: 60px;
+    .color{
+        color: #DE6B32;
+    }
+    .crown-img{
+        position: relative;
+        top: 13px;
+        left: 510px;
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-intro{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #544E47;
+    }.btn{
+    .get-started-btn{
+        font-weight: 500;
+        position: relative;
+        bottom: 85px;
+        border: none;
+        text-align: center;
+        background-color: #DE6B32;
+        width: 15%;
+        height: 40px;
+        color: white;
+        &:hover{
+            color: white;
+            border: none;
+        }
+    }
+}
+    .arrow{
+        position: relative;
+        left: 148px;
+        top: -15px;
+    }
+}

@@ -1,0 +1,79 @@
+.Page {
+  height: 115vh;
+  // border: 2px solid black;
+  .container {
+    display: flex;
+    // margin-top: 300px;
+    .Left-section {
+      height: 80vh;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .model-img{
+        width: 250px;
+        height: 391px;
+      }
+    }
+    .Right-section {
+      height: 80vh;
+      width: 50%;
+      background: linear-gradient(
+        90deg,
+        rgba(252, 240, 235, 0.21),
+        rgba(255, 168, 132, 0.25)
+      );
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .tag {
+        position: relative;
+        left: -7px;
+        bottom: -18px;
+      }
+      .heading {
+        width: 80%;
+        font-family: GT Super Txt Trial;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 45px;
+        span {
+          color: #ca612e;
+        }
+      }
+      .sub-heading {
+        width: 65%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #544e47;
+      }
+      .btn {
+        margin-top: 10px;
+        .explore-btn {
+          height: 45px;
+          width: 150px;
+          font-size: 14px;
+          font-weight: 500;
+          background-color: #ca612e;
+          color: white;
+          border: none;
+          &:hover {
+            color: white;
+            border: none;
+            background-color: rgb(60, 58, 58);
+          }
+          .arrow {
+            padding-left: 7px;
+            height: 13px;
+          }
+        }
+      }
+    }
+  }
+  .down-arr-left{
+    position: relative;
+    top: -80px;
+    left: 700px;
+  }
+}

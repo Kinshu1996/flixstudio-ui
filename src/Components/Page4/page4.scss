@@ -1,0 +1,62 @@
+.containers {
+  height: 150vh;
+  .background-images {
+    height: 420px;
+    color: #eae9e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/images/bg-1.svg"),
+      url("../../assets/images/bg-2.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .new-tool {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 38px;
+      font-weight: 900;
+      line-height: 50px;
+      .tool-icon {
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+    .btns {
+      margin-top: 20px;
+      width: 28%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .btn {
+        height: 3rem;
+        background-color: #e9e9e9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .imac {
+  
+    .imac-img {
+      position: relative;
+      top: -9rem;
+      margin: auto;
+      height: 100vh;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
